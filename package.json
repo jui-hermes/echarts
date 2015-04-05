@@ -1,0 +1,31 @@
+{
+  "name": "jui-echarts",
+  "version": "2.2.1",
+  "description": "http://echarts.baidu.com",
+  "keywords": [],
+  "homepage": "",
+  "author": "ecomfe",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    }
+  },
+  "devDependencies": {
+    "spm": "3"
+  },
+  "scripts": {
+    "test": "spm test",
+    "build": "spm build"
+  }
+}
